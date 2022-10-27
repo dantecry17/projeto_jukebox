@@ -3,3 +3,17 @@
     color: white;
     height: 50px;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    background-color: #000000;
+    width: 100px;
+    margin: 2px;
+    height: 49px;
+    text-align: center;
+    font-size: 30px;
+  }

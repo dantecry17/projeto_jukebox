@@ -17,3 +17,17 @@
     text-align: center;
     font-size: 30px;
   }
+
+  .flex-container-feed {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container-feed > div {
+    background-color: #d64747;
+    width: 100px;
+    margin: 6px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+  }

@@ -2,6 +2,7 @@
     background: black;
     color: white;
     height: 50px;
+    border-bottom: 2px solid rgb(118, 1, 134);
 }
 
 .flex-container {
@@ -13,7 +14,7 @@
     background-color: #000000;
     width: 100px;
     margin: 2px;
-    height: 49px;
+    height: 42px;
     text-align: center;
     font-size: 30px;
   }
@@ -31,3 +32,38 @@
     text-align: center;
     font-size: 25px;
   }
+
+.descri_img {
+  width: 80%;
+  text-align: left;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin: 2px 0 2px 0;
+}
+
+.descri_img_emAlta {
+  width: 80%;
+  text-align: left;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin: 2px 0 2px 0;
+}
+
+#titulo_musica {
+  font-weight: bold;
+}
+
+#nome_artista {font-size: 80%;}
+
+#nome_album {
+  font-size: 50%;
+}
+
+#visu_count {font-size: 50%;}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bury The Light</title>
+    <style>
+        .item1 { grid-area: header; }
+        .item2 { grid-area: menu; }
+        .item3 { grid-area: main; }
+        .item4 { grid-area: right; }
+        .item5 { grid-area: footer; }
+        
+        p {margin: 0;}
+
+        body {
+            margin: 0%;
+            border: none;
+            outline: 0;
+            color: white;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+            background-color: #4f4b4b;
+        }
+
+        .grid-container > div {
+            background-color: rgba(5, 5, 5, 0.8);
+            text-align: center;
+            padding: 0 0;
+            font-size: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="/bin/musica_page.html/style_musica.css">
+</head>
+<body>
+    
+</body>
+</html>

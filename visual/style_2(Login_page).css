@@ -1,0 +1,14 @@
+body {
+    background-image: url("/recursos/images/wallpp jukeBox.jpg");
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1366px;
+    height: 768px;
+    z-index: 1;
+  }
+
+header {
+    height: 100px;
+}
+  

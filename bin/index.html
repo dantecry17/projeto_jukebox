@@ -9,8 +9,12 @@
         .item1 { grid-area: header; }
         .item2 { grid-area: menu; }
         .item3 { grid-area: main; }
-        .item4 { grid-area: right; }
-        .item5 { grid-area: footer; }
+        .item4 { 
+            grid-area: right; 
+        }
+        .item5 { 
+            grid-area: footer; 
+        }
         
         p {margin: 0;}
 
@@ -28,13 +32,15 @@
                 'menu main main main right right'
                 'menu footer footer footer footer footer';
             background-color: #4f4b4b;
+            flex-wrap: wrap;
         }
 
         .grid-container > div {
             background-color: rgba(5, 5, 5, 0.8);
             text-align: center;
             padding: 0 0;
-            font-size: 30px;
+            /*font-size: 110%;*/
+            flex-wrap: wrap;
         }
 
         span {
@@ -231,9 +237,9 @@
         </div>  
         <div class="item4">chat
             <footer>
-                <a href="perfil.html">perfil</a>
-                <a href="Pag_inicial.html">Teste_login</a>
-                <a href="/bin/menu_inicial/menu_pagina_inicial.html">menu</a>
+                <a href="/bin/importados/perfil.html">perfil</a>
+                <a href="/bin/importados/login_page.html">Teste_login</a>
+                <a href="/bin/importados/cadastro_page.html">menu</a>
             </footer>
         </div>
         <div class="item5">Footer</div>

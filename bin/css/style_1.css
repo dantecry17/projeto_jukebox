@@ -8,6 +8,22 @@ body{
 
 }
 
+@media only screen and (max-width: 600px) {
+  section.item4 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 484px){
+  section.item3{
+    display: none;
+  }
+
+  section.descri_img_emAlta{
+    width: 260px;
+  }
+}
+
 header{
   display: flex;
   flex-direction: row;
@@ -81,6 +97,8 @@ header{
 }
 
 .flex-container-feed{
+  display: flex;
+  flex-direction: row;
   background-color: #2b292b8e;
   font-family: 'Montserrat', sans-serif;
   padding: 2%;
@@ -90,6 +108,7 @@ header{
 
 img{
   width: 100px;
+  height: 100px;
 }
 
 .descri_img{
@@ -97,12 +116,32 @@ img{
   margin:0;
   padding: 0;
   text-align: left;
-  margin-left: 2.5%;
+  margin-left: 2.5%; 
 }
-.visu
 
 .descri_img_emAlta{
   color: #ffffff;
   margin-left: 2%;
+  text-align: left;
+}
 
+h3{
+  font-size: 85%;
+}
+
+.titulo_musica{
+  font-size: large;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nome_artista{
+  color: #ff75ead5;
+  margin: 0 0 0 0 ;
+}
+
+.nome_album{
+  margin:0;
+  display: flex;
+  justify-content: flex-end;
 }

@@ -1,0 +1,95 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(55,0,39);
+    background: linear-gradient(0deg, rgba(55,0,39,1) 0%, rgba(24,1,17,1) 35%, rgba(0,0,0,1) 100%);
+}
+
+
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    color: #72416b;
+    text-shadow: 0px 0px 14px #FF75EA;
+}
+
+input {
+    background-color: #72416b;
+    border-style: none;
+    border-radius: 3px;
+    color: rgba(240, 248, 255, 0.329);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+h2{
+    color: #1c0b1a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    margin-top: 0;
+}
+
+label, input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+input::placeholder{
+    color: #fbd8ff;
+}
+input{
+    color: #fbd8ff;
+}
+
+.JukeBOX {
+    font-size: 50px;
+    font-family: "Bahnschrift";
+    color: #fbd8ff;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 0px 0px 14px #FF75EA;
+    text-align: center;
+    margin: 25px ;
+    text-shadow: inset 2px 0px 75px 21px rgb(255, 55, 225);
+    padding-bottom: 5%;
+  }
+
+  #Janela_login{
+    width: 540px;
+    margin: auto 0;
+    
+}
+
+
+#Janela_login {
+
+    text-align: center;
+    width: 240px;
+    margin:auto ;
+    border-radius: 7px ;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #fbd8ff;
+    box-shadow: inset 2px 0px 75px 21px rgba(255, 55, 225, 0.47);
+    box-shadow: 0px 0px 44px #ff75ea77;
+    
+}
+
+
+
+
+
+  
+
+  
+  
+  
+  
+
+
+
+  
+

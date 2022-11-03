@@ -4,246 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+    <title>JukeBOX</title>
     <style>
-        .item1 { grid-area: header; }
-        .item2 { grid-area: menu; }
-        .item3 { grid-area: main; }
-        .item4 { 
-            grid-area: right; 
-        }
-        .item5 { 
-            grid-area: footer; 
-        }
-        
-        p {margin: 0;}
-
-        body {
-            margin: 0%;
-            border: none;
-            outline: 0;
-            color: white;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-areas:
-                'header header header header header header'
-                'menu main main main right right'
-                'menu footer footer footer footer footer';
-            background-color: #4f4b4b;
-            flex-wrap: wrap;
-        }
-
-        .grid-container > div {
-            background-color: rgba(5, 5, 5, 0.8);
-            text-align: center;
-            padding: 0 0;
-            /*font-size: 110%;*/
-            flex-wrap: wrap;
-        }
-
-        span {
-            display: block;
-        }
-
-        .item2 p {
-            text-align: left;
-        }
-
-        h1 {margin: 0;}
-        h2 {margin: 4% 0 0 0;}
-        
-            
-
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
     </style>
-    <link rel="stylesheet" href="/visual/style_1.css">
+    <link rel="shortcut icon" href="/recursos/images/jb_logo_Pequeno.png" type="image/x-icon">
 </head>
 <body>
-    <div class="grid-container">
-        <div class="item1">
-            <section id="menu_bar">
-                <div class="flex-container">
-                    <div>JukeBox</div>
-                    <div>2</div>
-                    <div>3</div>  
-                  </div>
-            </section>
-        </div>
-        <div class="item2">
-            <h2>Em Alta</h2>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/see-you-again.jpg" width="100"></a>
-                </div>
-                <section class="descri_img_emAlta">
-                    <p id="titulo_musica">See you again</p>
-                    <p id="nome_artista">Wiz Khalifa</p>
-                    <p id="visu_count">5.674.815.084 views</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/mic_drop.jpg" width="100"></a>
-                </div>
-                <section class="descri_img_emAlta">
-                    <p id="titulo_musica">MIC Drop</p>
-                    <p id="nome_artista">BTS</p>
-                    <p id="visu_count">1.265.210.443 views</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/fire-album-bg.jpg" width="100"></a>
-                </div>
-                <section class="descri_img_emAlta">
-                    <p id="titulo_musica">FIRE(불타오르네)</p>
-                    <p id="nome_artista">BTS</p>
-                    <p id="visu_count">739.861.882 views</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/ptd_bts.jpg" width="100"></a>
-                </div>
-                <section class="descri_img_emAlta">
-                    <p id="titulo_musica">Permission to Dance</p>
-                    <p id="nome_artista">BTS</p>
-                    <p id="visu_count">542.479.507 views</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/HARRY'S_HOUSE.jpg" width="100"></a>
-                </div>
-                <section class="descri_img_emAlta">
-                    <p id="titulo_musica">As it Was</p>
-                    <p id="nome_artista">Harry Styles</p>
-                    <p id="visu_count">347.156.317 views</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/enemy_imagine-dragons.jpg" width="100"></a>
-                </div>
-                <section class="descri_img_emAlta">
-                    <p id="titulo_musica">Enemy</p>
-                    <p id="nome_artista">Imagine Dragons</p>
-                    <p id="visu_count">264.808.539 views</p>
-                </section>
-            </div>
-        </div>
-        <div class="item3"><h1>Feed</h1><span>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/bg-album-dmc5se.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Bury the light</p>
-                    <p id="nome_artista">Victor Boarba</p>
-                    <p id="nome_album">Devil may cry 5 Special Edition Album</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/EXO-bg-album.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Love Shot</p>
-                    <p id="nome_artista">EXO</p>
-                    <p id="nome_album">LOVE SHOT</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/BTS_-_Map_of_the_Soul_7.png" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">ON</p>
-                    <p id="nome_artista">BTS</p>
-                    <p id="nome_album">Map of the Soul 7</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/Skool_Luv_Affair_-_(EP).jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Boy in Luv</p>
-                    <p id="nome_artista">BTS</p>
-                    <p id="nome_album">SKOOL LUV AFFAIR</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/Man on the moon.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Moon Shot</p>
-                    <p id="nome_artista">N.Flying</p>
-                    <p id="nome_album">Man on the Moon</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/seventeen_album.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Don't Wanna Cry</p>
-                    <p id="nome_artista">SEVENTEEN</p>
-                    <p id="nome_album">DON'T WANNA CRY</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/superjunior-bg-album.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Mr.Simple</p>
-                    <p id="nome_artista">Super Junior</p>
-                    <p id="nome_album">Mr.Simple</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/Stray_Kids_-_Clé_1_-_Miroh.png" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Miroh</p>
-                    <p id="nome_artista">Stray Kids</p>
-                    <p id="nome_album">Clé 1: MIROH</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/green day_american_idiot.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">American Idiot</p>
-                    <p id="nome_artista">Green Day</p>
-                    <p id="nome_album">american idiot</p>
-                </section>
-            </div>
-            <div class="flex-container-feed">
-                <div>
-                    <a><img src="/recursos/images/album/B.A.P_Noir.jpg" width="100"></a>
-                </div>
-                <section class="descri_img">
-                    <p id="titulo_musica">Skydive</p>
-                    <p id="nome_artista">B.A.P</p>
-                    <p id="nome_album">Noir</p>
-                </section>
-            </div>
-        </div>  
-        <div class="item4">chat
-            <footer>
-                <a href="/bin/importados/perfil.html">perfil</a>
-                <a href="/bin/importados/login_page.html">Teste_login</a>
-                <a href="/bin/importados/cadastro_page.html">menu</a>
-            </footer>
-        </div>
-        <div class="item5">Footer</div>
-    </div>
-    <a href="/bin/importados/login_page.html">pag_login</body>a>
+    <header>
+        <h1 class="JukeBOX">JukeBOX</h1>
+    </header>
+
+    <main id="Janela_login">
+        
+        <h2>Login</h2>
+
+        <form action="">
+            <label for="input_email">E-mail:</label>
+                <input type="text" id="input_email" placeholder="Digite seu e-mail">
+            <span>
+            <label for="input_senha">Senha:</label>
+                <input type="password" id="input_senha" placeholder="Digite sua senha">
+                    <br>
+                    <input type="submit" value="Entrar">
+                
+        </form>
+    </main>
+    <a href="Pag_inicial.html">teste</a>
+    <a href="\bin\index_01.html">pagina inicial uau</a>
 </body>
 </html>

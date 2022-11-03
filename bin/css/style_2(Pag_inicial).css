@@ -1,0 +1,165 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(55,0,39);
+    background: linear-gradient(0deg, rgb(23, 0, 29) 0%, rgb(24, 1, 22) 15%, rgba(0,0,0,1) 100%);
+    margin: 0;
+    padding: 0;
+  
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+    border-bottom: 1px solid #492e45;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: #ffffff;
+    transition: 1s;
+}
+
+h1:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+.menu_icon{
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    box-shadow: 0 0 5px #ffffff;
+    
+  }
+
+.menu_icon_header{
+    margin: 1.2%;
+    transition: 0.5s;
+}
+
+.menu_icon_header:hover{
+    transform: scale(110%)
+}
+
+.JukeBOX {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 150%;
+    font-family: "Bahnschrift";
+    color: #fbd8ff;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 0px 0px 14px #FF75EA;
+    text-align: center;
+    margin: 1.2%;
+    text-shadow: inset 2px 0px 75px 21px rgb(255, 55, 225);
+    padding-bottom: 0%;
+    transition: 0.5s;
+    
+    
+}
+
+.JukeBOX:hover{
+    transform: scale(110%)
+}
+
+.publicacao{
+    background-color: #2b292b8e;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    border-right: solid 5px #FF75EA;
+}
+
+.nome_usuario{
+    color: #ffffff;
+    margin: 0;
+}
+
+.identificador_usuario{
+    color: #cf4a91;
+    margin: 0;
+}
+
+.identificador_usuario:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fotoPerfil_usario{
+    width: 8%;
+    border-radius: 3px;
+}
+
+.perfil_autor_publicacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.credenciais{
+    font-size: 70%;
+    margin-left: 1.5%;
+}
+
+.publicacao_conteudo{
+    background-color: #141313;
+    padding: 1% 3.5% 3.5% 3.5%;
+    margin: 2.5%;
+    border-radius: 5px;
+}
+.music_cover_publicacao{
+    width: 20%;
+    border-radius: 3px;
+}
+.comentario_do_usuario{
+    color: #ffffff;
+}
+.pseudo_estrelas{
+    color: #ffffff;
+}
+.informações_artista{
+    color: #ffffff;
+    margin-left: 2.5%;
+}
+.musica_publicacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.Nome_artista{
+    font-size: 150%;
+    margin: 0 0 10% 0;
+}
+.Nome_musica{
+    font-size: 90%;
+    margin: 0 0 0 0;
+}
+.Nome_album{
+    font-size: 90%;
+    margin: 0 0 0 0;
+}
+.checked {
+    color: rgb(216, 53, 176);
+  }
+
+.estrelas-rate{
+    margin-bottom: 2%;
+    margin-top: 0;
+    padding-top: 0;
+}

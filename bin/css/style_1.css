@@ -29,7 +29,19 @@ header{
   flex-direction: row;
 
   background-color: black;
-  border-bottom: 1px solid #492e45;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  color: #ffffff;
+  transition: 1s;
+  text-align: center;
+  margin: 1em;
+}
+
+h1:hover{
+  text-decoration: underline;
 }
 
 .menu_icon{
@@ -54,9 +66,10 @@ header{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 17.5px;
+  top: 0;
   left: 0;
   right: 0;
-  text-align: center;
   font-size: 150%;
   font-family: "Bahnschrift";
   color: #fbd8ff;
@@ -65,7 +78,6 @@ header{
   text-shadow: 0px 0px 7px #FF75EA;
   text-shadow: inset 2px 0px 75px 21px rgb(255, 55, 225);
 }
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -95,14 +107,9 @@ header{
   flex-direction: row;
   background-color: #2b292b8e;
   font-family: 'Montserrat', sans-serif;
-  padding: 2%;
+  padding: 1em;
   border-right: solid 5px #FF75EA;
-  margin: 1.5%;
-}
-
-img{
-  width: 100px;
-  height: 100px;
+  margin: 0.5em;
 }
 
 .descri_img{
@@ -113,11 +120,6 @@ img{
   margin-left: 2.5%; 
 }
 
-.descri_img_emAlta{
-  color: #ffffff;
-  margin-left: 2%;
-  text-align: left;
-}
 
 h3{
 }
@@ -143,4 +145,10 @@ h3{
   margin: 0;
  margin-top: 3.5em;
  font-size: 70%;
+}
+
+.music_cover_publicacao{
+  width: 7em;
+  height: 7em;
+  border-radius: 3px;
 }

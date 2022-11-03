@@ -1,20 +1,27 @@
-body{
+.grid-container {
+    display: grid;
     grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    "header header header header header"
+    "main main main right right"
+    "footer footer footer right right";
+    grid-template-rows: min-content;
+
 }
 
-header{
+.header{
     grid-area: header;
+    border: 0;
+    height: fit-content;    
 }
 
-main{
+.feed{
     grid-area: main;
 }
 
-footer{
+.chat{
+    grid-area: right;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+.footer{
     grid-area: footer;
 }

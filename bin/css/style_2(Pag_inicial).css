@@ -39,6 +39,7 @@ h1:hover{
     background-color: rgb(255, 255, 255);
     margin: 6px 0;
     box-shadow: 0 0 5px #ffffff;
+    z-index: 1;
     
   }
 
@@ -148,4 +149,8 @@ h1:hover{
     margin-bottom: 2%;
     margin-top: 0;
     padding-top: 0;
+}
+.paper-plane{
+    width: 1em;
+    height: 1em;
 }

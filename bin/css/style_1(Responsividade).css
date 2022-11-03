@@ -9,6 +9,7 @@
 }
 .item4 { 
     grid-area: right; 
+    background-color: rgba(0, 0, 0, 0.500);
 }
 .item5 { 
     grid-area: footer; 

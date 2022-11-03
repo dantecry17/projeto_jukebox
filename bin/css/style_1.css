@@ -120,10 +120,6 @@ h1:hover{
   margin-left: 2.5%; 
 }
 
-
-h3{
-}
-
 .titulo_musica{
   font-size: large;
   font-weight: bold;
@@ -148,7 +144,7 @@ h3{
 }
 
 .music_cover_publicacao{
-  width: 7em;
-  height: 7em;
+  width: 6.4em;
+  height: 6.4em;
   border-radius: 3px;
 }

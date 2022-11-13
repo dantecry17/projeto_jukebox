@@ -1,0 +1,47 @@
+.flex-container-feed{
+    display: flex;
+    flex-direction: row;
+    background-color: #2b292b8e;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    border-right: solid 5px #FF75EA;
+    margin: 0.5em;
+  }
+  
+  .descri_img{
+    color: white;
+    margin:0;
+    padding: 0;
+    text-align: left;
+    margin-left: 2.5%; 
+  }
+  
+  .titulo_musica{
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nome_artista{
+    color: #cf4a91;
+    margin: 0 0 0 0 ;
+  }
+  
+  .nome_album{
+   margin: 0;
+   margin-top: 3em;
+   font-size: 70%;
+  }
+  
+  .visu_count{
+    margin: 0;
+   margin-top: 3.5em;
+   font-size: 70%;
+  }
+  
+  .music_cover_publicacao{
+    width: 6.4em;
+    height: 6.4em;
+    border-radius: 3px;
+  }
+  

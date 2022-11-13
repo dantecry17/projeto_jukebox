@@ -1,0 +1,46 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "amigos feed feed em_alta"
+    "amigos feed feed em_alta"
+    "footer footer footer footer ";
+    grid-template-columns: auto;
+    grid-template-rows: max-content;
+    gap: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(162,33,222);
+    background: linear-gradient(0deg, rgb(117, 54, 146) 0%, rgba(11,11,11,1) 100%);
+    background-repeat: no-repeat;
+  
+}
+
+header{
+    grid-area: header;
+}
+
+.feed_section{
+    background-color: #0B0B0B;
+    grid-area: feed;
+    text-align: center;
+}
+
+.amigos_section{
+    grid-area: amigos;
+}
+
+.em_alta_section{
+    grid-area: em_alta;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #0B0B0B;
+    
+}

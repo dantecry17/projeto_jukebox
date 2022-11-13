@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JukeBOX</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/responsive_css.css">
     <link rel="stylesheet" href="css/style_2(Pag_inicial).css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/feed_responsive.css">
+    <link rel="stylesheet" href="css/feed_container.css">
+
+
     <link rel="shortcut icon" href="/recursos/images/jb_logo_Pequeno.png" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="grid-container">
-    
+<body>
+    <div class="grid-container">
     <header class="header">
         <button class="menu_icon_header ">
             <img src="/recursos/svg/menu-burger.svg" alt="menu" class="menu_burger">
         </button>
         <h1 class="JukeBOX">JukeBOX</h1>
     </header>
-    <main class="feed">
         <section class="menu_lateral">
-            <a href="" class="menu_link">Home</a>
-            <a href="" class="menu_link">Feed</a>
-            <a href="" class="menu_link">Em alta</a>
-            <a href="" class="menu_link">Perfil</a>
-            <a href="" class="menu_link">Player</a>
+            <a href="" class="menu_link home_link">Home</a>
+            <a href="" class="menu_link feed_link">Feed</a>
+            <a href="" class="menu_link emalta_link">Em alta</a>
+            <a href="" class="menu_link perfil_link">Perfil</a>
+            <a href="" class="menu_link player_link">Player</a>
             <a href="" class="menu_link"></a>
         </section>
+
+        <section class="amigos_section">
+            <h1>Amigos</h1> 
+        </section>
+        <main class="feed_section">
         <section>
             <h1>Feed</h1>
             <article class="publicacao">
@@ -72,23 +80,11 @@
 
         </section>
     </main>
-    <section class="chat">
-        <h1>Chat</h1>
-
-        <section class="conversa_usuario">
-
-        </section>
-
-        <section class="barra_de_mensagem">
-            <input type="text" placeholder="Mensagem" class="barra_de_escrita">
-            <img src="/recursos/svg/paper-plane.svg" alt="" class="paper-plane">
-        </section>
-        
-    </section>
+    <section class="em_alta_section"><h1>Em alta</h1></section>
     <footer class="footer">
 
     </footer>
-
+    </div>
     <script type="text/javascript" src="/app/app.js"></script>
     
 </body>

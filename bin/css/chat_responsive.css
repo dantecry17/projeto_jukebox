@@ -1,0 +1,170 @@
+html, body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main main main main'
+    'info_user info_user info_user info_user'
+    'footer footer footer footer';
+    width: 100%;
+    height: 100vh;
+    color: white ;
+    font-size: 15px;
+    
+}
+.cabecalho{
+    grid-area: header;
+    background-color: #0B0B0B;
+    height: 10vh;
+}
+main{
+    grid-area:main;
+    height: 15vh;
+    background: rgb(162,33,222);
+    background: linear-gradient(0deg, rgb(117, 54, 146) 0%, rgba(11,11,11,1) 100%);
+    background-repeat: no-repeat;
+}
+.info_user{
+    grid-area: info_user;
+    height:60vh;
+    background-color: #0B0B0B;
+}
+.titulo{
+    font-size: 15px;
+    font-family: "Bahnschrift";
+    color: #fbd8ff;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 0px 0px 7px #FF75EA;
+    text-shadow: inset 2px 0px 75px 21px rgb(255, 55, 225);
+  }
+  
+.menu_burger{
+    width: 20px;
+    height: 20px;
+}
+.search{
+    width: 20px;
+    height: 20px;
+}
+
+.cabecalho_divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+footer{
+    grid-area: footer;
+    background-color: #0B0B0B;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "musica_info player options";
+    color: white;
+}
+
+.music_infos{
+    grid-area: musica_info;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    
+}
+.music_cover_player{
+    width: 4em;
+    height: 4em;
+    
+}
+.player{
+    grid-area: player;
+    text-align: center;
+    
+}
+
+.options{
+    grid-area: options;
+}
+.informacoes_artista{
+    margin: 5px;
+}
+.Nome_artista{
+    font-size: 100%;
+    margin: 0 0 10% 0;
+    text-align: left;
+  }
+.Nome_musica{
+    font-size: 80%;
+    margin: 0 0 0 0;
+    font-weight: lighter;
+    text-align: left;
+  }
+.Nome_album{
+    font-size: 80%;
+    margin: 0 0 0 0;
+    font-weight: lighter;
+    text-align: left;
+  }
+.user_pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.wallppr{
+    grid-area: wallppr;
+}
+.user_pic{
+    grid-area: user;
+    margin-left: 100px;
+}
+.wlp_infos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.info_user{
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+.envios_perfil{
+    width: 50%;
+    text-align: center;
+}
+.publicacoes_perfil{
+    width: 50%;
+    text-align: center;
+    
+}
+
+.nome_user{
+    color: #ffffff;
+    align-self: center;
+    margin-left: 5px;
+}
+.pic_catao_envios{
+    width: 10%;
+    height: 10%;
+}
+.cartao_envios{
+    display: flex;
+    flex-direction: row;
+    background-color: #2b292b8e;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    border-right: solid 5px #FF75EA;
+}
+.Nome_album{
+    align-self: flex-end;
+}
+.titulo_section{
+    margin-bottom: 5px;
+}

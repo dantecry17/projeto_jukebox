@@ -6,41 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JukeBOX</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style_2(Pag_inicial).css">
     <link rel="stylesheet" href="css/Header.css">
-    <link rel="stylesheet" href="css/feed_responsive.css">
-    <link rel="stylesheet" href="css/feed_container.css">
-
-
+    <link rel="stylesheet" href="css/chat_responsive.css">
     <link rel="shortcut icon" href="/recursos/images/jb_logo_Pequeno.png" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/feed_container.css">
 </head>
 <body>
-    <div class="grid-container">
-    <header class="header">
-        <button class="menu_icon_header ">
-            <img src="/recursos/svg/menu-burger.svg" alt="menu" class="menu_burger">
-        </button>
-        <h1 class="JukeBOX">JukeBOX</h1>
+    <div grid-container>
+    <header class="cabecalho">
+        <div class="cabecalho_divs">
+            <img src="/recursos/svg/menu-burger.svg" alt="" class="menu_burger">
+            <p class="titulo">JukeBOX</p>
+            <img src="/recursos/svg/procurar.svg" alt="" class="search">
+        </div>
     </header>
-        <section class="menu_lateral">
-            <a href="" class="menu_link home_link">Home</a>
-            <a href="" class="menu_link feed_link">Feed</a>
-            <a href="" class="menu_link emalta_link">Em alta</a>
-            <a href="" class="menu_link perfil_link">Perfil</a>
-            <a href="" class="menu_link player_link">Player</a>
-            <a href="" class="menu_link"></a>
+    <main class="section_conteudo">
+        <div class="grid_container_main">
+        <setcion class="wallppr">
+            <section class="wlp_infos">
+            <img src="/recursos/images/Usuario_placeholder.jpg" alt="" class="user_pic">
+            <p class="nome_user">@nome_usuario</p>
+            </section>
         </section>
-
-        <section class="amigos_section">
-            <h1>Amigos</h1> 
+        </div>
+    </main>
+    <section class="info_user">
+        <section class="envios_perfil">
+            <p class="titulo_section">Envios</p>
+            <article class="cartao_envios">
+                <img src="/recursos/images/placeholder-images-image_large.png" alt="" class="pic_catao_envios">
+                <section>
+                    <section class="informações_artista">
+                        <h4 class="Nome_artista">
+                            Nome_usuario
+                        </h4>
+                        <h4 class="Nome_musica">
+                            Nome_musica
+                        </h4>
+                        <h4 class="Nome_album">
+                            Nome_album
+                        </h4>
+                    </section>
+                </section>
+                
+            </article>
         </section>
-        <main class="feed_section">
-        <section>
-            <h1>Feed</h1>
+        <section class="publicacoes_perfil">
+            <p class="titulo_section">Publicações</p>
             <article class="publicacao">
                 <section class="perfil_autor_publicacao">
                 <img src="/recursos/images/Usuario_placeholder.jpg" alt="" class="fotoPerfil_usario">
@@ -77,15 +93,27 @@
                 </section>
 
             </article>
-
         </section>
-    </main>
-    <section class="em_alta_section"><h1>Em alta</h1></section>
-    <footer class="footer">
-
+</section>       
+    <footer>
+        
+        <section class="music_infos">
+            <img src="/recursos/images/placeholder-images-image_large.png" alt="" class="music_cover_player">
+            <section class="informacoes_artista">
+                <h4 class="Nome_artista">
+                    Nome_artista
+                </h4>
+                <h4 class="Nome_musica">
+                    Nome_musica
+                </h4>
+                <h4 class="Nome_album">
+                    Nome_album
+                </h4>
+            </section>
+        </section>
+        <section class="player"><p class="titulos_section">Player</p></section>
+        <section class="options"></section>
     </footer>
     </div>
-    <script type="text/javascript" src="/app/app.js"></script>
-    
 </body>
 </html>

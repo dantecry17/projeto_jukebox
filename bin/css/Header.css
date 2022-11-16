@@ -33,11 +33,6 @@ footer{
     grid-area: footer;
     background-color: #0B0B0B;
     height: 15vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "musica_info player options";
     color: white;
 }
 
@@ -55,8 +50,7 @@ footer{
 }
 .player{
     grid-area: player;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .options{

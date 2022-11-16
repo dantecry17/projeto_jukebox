@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="/recursos/images/jb_logo_Pequeno.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>JukeBOX</title>
 </head>
 <body>
+    <div grid-container>
     <header class="cabecalho">
         <div class="cabecalho_divs">
             <img src="/recursos/svg/menu-burger.svg" alt="" class="menu_burger">
@@ -14,5 +24,35 @@
             <img src="/recursos/svg/procurar.svg" alt="" class="search">
         </div>
     </header>
+    
+    <main class="content_main">
+        <section class="amigos">
+            <p class="titulo_section">Amigos</p>
+        </section>
+        <section class="player_large">
+            <img src="/recursos/images/placeholder-images-image_large.png" alt="" class="music_cover_large">
+            <section class="informações_artista">
+                <h4 class="Nome_artista">
+                    Nome_artista
+                </h4>
+                <h4 class="Nome_musica">
+                    Nome_musica
+                </h4>
+                <h4 class="Nome_album">
+                    Nome_album
+                </h4>
+            </section>
+        </section>
+        <section class="em_alta">
+            <p class="titulo_section">Em alta</p>
+        </section>
+    </main>
+    
+    <footer> 
+
+        <section class="player"><p class="titulos_section">Player</p></section>
+        <section class="options"></section>
+    </footer>
+    </div>
 </body>
 </html>

@@ -78,12 +78,11 @@ input{
     
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #Janela_login{
         width: 100vw;
         height: 100vh;
-        padding: 25px;
+        padding: 0 0 0 0;
     }
 
     #input_senha, #input_email{
@@ -103,7 +102,8 @@ input{
     h2{
         font-size: 35px;
         width: 200px;
-        margin-left: 21vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
     }
 
     .JukeBOX{
@@ -111,7 +111,8 @@ input{
     }
 
     form{
-        margin-left: -50px;
+        margin-left: 15vw;
+        margin-right: 15vw;
     }
 
     body{
@@ -126,7 +127,6 @@ input{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

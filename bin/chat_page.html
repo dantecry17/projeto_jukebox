@@ -5,20 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JukeBOX</title>
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="shortcut icon" href="/recursos/images/jb_logo_Pequeno.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho_divs">
-            <img src="/recursos/svg/menu-burger.svg" alt="" class="menu_burger">
-            <p class="titulo">JukeBOX</p>
-            <img src="/recursos/svg/procurar.svg" alt="" class="search">
-        </div>
-    </header>
-    <footer>
-        <section class="music_infos">
-            <img src="/recursos/images/placeholder-images-image_large.png" alt="" class="music_cover_player">
+    <div class="grid-container">
+        <header class="cabecalho">
+            <div class="cabecalho_divs">
+                <img src="/recursos/svg/menu-burger.svg" alt="" class="menu_burger">
+                <p class="titulo">JukeBOX</p>
+                <img src="/recursos/svg/procurar.svg" alt="" class="search">
+            </div>
+        </header>
+        <main class="textos">
+            <article class="balao_texto">
+                <p class="mensagem_balao">Mensagem escrita</p>
+            </article>
+            <article class="balao_texto">
+                <p class="mensagem_balao">##########################</p>
+            </article>
+            <article class="balao_texto">
+                <p class="mensagem_balao">##########################</p>
+            </article>
+            <article class="balao_texto">
+                <p class="mensagem_balao">##########################</p>
+            </article>
+        </main>
+        <section class="amigos_sec">
+            <ARTicle class="contato">
+                <img src="/recursos/images/Usuario_placeholder.jpg" alt="" class="contato_pic">
+                <section>
+                <h2 class="nome_contato">Nome do contato</h2>
+                <p class="ultima_mensagem">Última mensagem</p>
+                </section>
+            </ARTicle>
+
+            <ARTicle class="contato">
+                <img src="/recursos/images/Usuario_placeholder.jpg" alt="" class="contato_pic">
+                <section>
+                <h2 class="nome_contato">Nome do contato</h2>
+                <p class="ultima_mensagem">Última mensagem</p>
+                </section>
+            </ARTicle>
+
+            <ARTicle class="contato">
+                <img src="/recursos/images/Usuario_placeholder.jpg" alt="" class="contato_pic">
+                <section>
+                <h2 class="nome_contato">Nome do contato</h2>
+                <p class="ultima_mensagem">Última mensagem</p>
+                </section>
+            </ARTicle>
         </section>
-        <section class="player"><p class="titulos_section">Player</p></section>
-        <section class="options"></section>
+        <section class="barra_texto">
+            <input type="text" name="barra_de_escrita" id="" placeholder="Mensagem" class="barra_digitar">
+        </section>
+        <footer>
+            <div class="grid-container_footer">
+            <section class="music_infos">
+                <img src="/recursos/images/placeholder-images-image_large.png" alt="" class="music_cover_player">
+            </section>
+            <section class="player"><p class="titulos_section">Player</p></section>
+            <section class="options"></section>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

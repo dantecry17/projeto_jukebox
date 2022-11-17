@@ -1,0 +1,86 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0B0B0B;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main main amigos amigos'
+    'barra barra footer footer';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.textos{
+    grid-area: main;
+    height: 75vh;
+    background-color: #0B0B0B;
+}
+.barra_texto{
+    grid-area: barra;
+    width: 50vw;
+    height:15vh;
+    background-color: #0B0B0B;
+    border-top: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amigos_sec{
+    grid-area: amigos;
+    background: rgb(162,33,222);
+    background: linear-gradient(0deg, rgb(117, 54, 146) 0%, rgba(11,11,11,1) 100%);
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+}
+.barra_digitar{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.026);
+    margin-left: 20px ;
+    margin-right: 20px ;
+    padding: 20px;
+    width: 100%;
+}
+.balao_texto{
+    background-color: #161616;
+    padding: 15px;
+    width: fit-content;
+    border-right: solid 3px #FF75EA;
+    margin: 20px;
+    
+}
+.mensagem_balao{
+    color: white;
+    font-weight: light;
+}
+.grid-container_footer{
+    display: grid;
+    grid-template-areas: 
+    'musica_info player options';
+}
+.contato_pic{
+    width: 5%;
+    height: 5%;
+    border-radius: 2px;
+}
+.contato{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+.ultima_mensagem{
+    color: white;
+    font-weight: light;
+    margin-left: 7px;
+}
+.nome_contato{
+    font-size: larger;
+    color: white;
+    padding-bottom: 5px ;
+    margin-left: 5px;
+}
